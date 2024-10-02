@@ -82,7 +82,6 @@ export function Demo() {
           description="Это количество войск, которое вы например отправляете на логово"
           key={form.key('squadSize')}
           min={1}
-          max={5}
           {...form.getInputProps('squadSize')}
         />
 
