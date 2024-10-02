@@ -47,7 +47,7 @@ export function Demo() {
   return (
     <Container size="xs" py={40}>
       <form onSubmit={form.onSubmit((values) => console.log(values))}>
-        <Blockquote color="red">
+        <Blockquote color="red" mb={10}>
           <Text size="sm">Форма в разработке, заполнять пока не нужно</Text>
         </Blockquote>
 
@@ -59,7 +59,7 @@ export function Demo() {
         />
 
         <Divider my="md" label="Общие данные" labelPosition="center" />
-        <Blockquote>
+        <Blockquote mb={10}>
           <Text size="sm">
             Как найти информацию о размере отряда, групповой атаке, лимите марша? Жмем на свой
             профиль (там где обычно видно ваше снаряжене), снизу в меню жмем{' '}
@@ -104,7 +104,7 @@ export function Demo() {
         />
 
         <Divider my="md" label="Войска" labelPosition="center" />
-        <Blockquote>
+        <Blockquote mb={10}>
           <Text size="sm">
             Информацию о ваших войсках вы найдите на базе, нажав на <b>Плац</b>, он находится правее{' '}
             <b>Стены</b>
